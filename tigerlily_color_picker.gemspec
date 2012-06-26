@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "colorpicker/version"
+require "tigerlily_color_picker/version"
 
 Gem::Specification.new do |s|
-  s.name        = "colorpicker"
-  s.version     = ColorPicker::VERSION
+  s.name        = "tigerlily_color_picker"
+  s.version     = TigerlilyColorPicker::VERSION
   s.authors     = ["Yannick François"]
   s.email       = ["yannick@tigerlilyapps.com"]
   s.homepage    = "http://www.tigerlilyapps.com"

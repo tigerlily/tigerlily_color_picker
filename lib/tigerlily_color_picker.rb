@@ -1,4 +1,4 @@
-require "color_picker/version"
+require "tigerlily_color_picker/version"
 
 # include Rake tasks when needed
 if defined?(Rake)
@@ -6,6 +6,6 @@ if defined?(Rake)
   Dir[File.join(tasks_dir, '**', '*.rake')].each { |ext| load ext }
 end
 
-module ColorPicker
+module TigerlilyColorPicker
   Engine = Class.new Rails::Engine if defined? Rails::Engine
 end
