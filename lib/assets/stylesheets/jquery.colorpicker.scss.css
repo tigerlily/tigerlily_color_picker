@@ -83,7 +83,7 @@
 
 .ui-colorpicker-map-layer-1,
 .ui-colorpicker-map-layer-2 {
-	background: image-url(map.png) no-repeat;
+	background: image-url('map.png') no-repeat;
 }
 
 .ui-colorpicker-map-layer-alpha {
