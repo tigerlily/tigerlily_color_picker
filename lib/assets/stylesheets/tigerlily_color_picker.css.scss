@@ -1,4 +1,4 @@
-ui-colorpicker, .ui-dialog.ui-colorpicker {
+.ui-colorpicker, .ui-dialog.ui-colorpicker {
   display: inline-block;
   width: auto; }
 
@@ -161,3 +161,118 @@ ui-colorpicker, .ui-dialog.ui-colorpicker {
   height: 11px;
   border-right: 1px solid black;
   border-bottom: 1px solid black; }
+
+
+
+/* Custome css from Tigerlily*/
+.cp-websafe {
+  width:100px;
+}
+
+.cp-preview{
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  border:1px solid #d4d6d9;
+  margin-left: 10px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding; 
+  -webkit-background-clip: padding-box; 
+  background-clip: padding-box;
+}
+
+.cp-websafe + .ui-button{
+  display: block;
+  float: left;
+  width: 26px;
+  height: 25px;
+  border:1px solid #d4d6d9;
+  margin-right: 10px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding; 
+  -webkit-background-clip: padding-box; 
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.ui-colorpicker-dialog{
+  position: absolute;
+  width: 300px !important;
+  top:73px !important;
+  left:10px !important;
+  padding: 0px 10px 0px 6px !important;
+  label{
+    display: inline !important;
+  }
+}
+
+.ui-button-text img{
+  margin: 2px 0px 0px -2px;
+}
+
+.colorpicker-ok, .colorpicker-ok.ui-state-over, .colorpicker-ok.ui-state-active{
+  display: inline-block;
+  *display: inline;
+  zomm:1;
+  font-size:11px !important;
+  height:22px;
+  line-height:22px;
+  text-decoration:none;
+  padding: 0 10px;
+  margin:0 0 0 10px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding; 
+  -webkit-background-clip: padding-box; 
+  background-clip: padding-box;
+  cursor:pointer !important;
+
+  color:#fff !important;
+  background-color: #7bcc5a !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7bcc5a), to(#4eb122)) !important; /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #7bcc5a, #4eb122) !important; /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #7bcc5a, #4eb122) !important; /* FF3.6+ */
+  background-image:      -o-linear-gradient(top, #7bcc5a, #4eb122) !important; /* Opera 11.10+ */
+  background-image:         linear-gradient(to bottom, #7bcc5a, #4eb122) !important;
+
+  border:1px solid #40971a !important;
+  text-shadow: 0 1px 0 #25800e;
+  -webkit-box-shadow: inset 0px 1px 0px #ade596, inset 0px -1px 0px #59bd2d, 0px 1px 0px #cecece;
+  box-shadow: inset 0px 1px 0px #ade596, inset 0px -1px 0px #59bd2d, 0px 1px 0px #cecece;
+  &:hover{
+    background-color: #7bcc5a !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7bcc5a), to(#4ba921)) !important; /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #7bcc5a, #4ba921) !important; /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #7bcc5a, #4ba921) !important; /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, #7bcc5a, #4ba921) !important; /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, #7bcc5a, #4ba921) !important;
+  }
+  &:active{
+    background-color: #7bcc5a !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7bcc5a), to(#4dae21)) !important; /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #7bcc5a, #4dae21) !important; /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #7bcc5a, #4dae21)v; /* FF3.6+ */
+    background-image:      -o-linear-gradient(top, #7bcc5a, #4dae21) !important; /* Opera 11.10+ */
+    background-image:         linear-gradient(to bottom, #7bcc5a, #4dae21) !important;
+  }
+}
+
+.colorpicker-cancel{
+  background: none !important;
+  border: none !important;
+  font-size:11px !important;
+  color: #777 !important;
+  cursor:pointer;
+}
+
+.ui-colorpicker-preview-container, .ui-colorpicker-hsv-container, .ui-colorpicker-rgb-container, .ui-colorpicker-alpha-container, .ui-colorpicker-hex-container {
+  display: none;
+}
+
+.ui-dialog-buttonset{
+    text-align: right;
+    padding: 10px 0;
+}
